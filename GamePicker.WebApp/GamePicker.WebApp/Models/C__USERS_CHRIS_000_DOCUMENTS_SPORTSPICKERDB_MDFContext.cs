@@ -14,6 +14,9 @@ namespace GamePicker.WebApp.Models
             : base(options)
         { }
 
+        public DbSet<C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContext> C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContexts { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Game>(entity =>
