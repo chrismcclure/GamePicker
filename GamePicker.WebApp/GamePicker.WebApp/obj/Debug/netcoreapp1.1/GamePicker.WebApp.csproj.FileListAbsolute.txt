@@ -1,0 +1,10 @@
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\bin\Debug\netcoreapp1.1\GamePicker.WebApp.deps.json
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\bin\Debug\netcoreapp1.1\GamePicker.WebApp.runtimeconfig.json
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\bin\Debug\netcoreapp1.1\GamePicker.WebApp.runtimeconfig.dev.json
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\bin\Debug\netcoreapp1.1\GamePicker.WebApp.dll
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\bin\Debug\netcoreapp1.1\GamePicker.WebApp.pdb
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\obj\Debug\netcoreapp1.1\GamePicker.WebApp.csprojResolveAssemblyReference.cache
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\obj\Debug\netcoreapp1.1\GamePicker.WebApp.AssemblyInfo.cs
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\obj\Debug\netcoreapp1.1\GamePicker.WebApp.dll
+c:\users\chris_000\documents\visual studio 2017\Projects\GamePicker.WebApp\GamePicker.WebApp\obj\Debug\netcoreapp1.1\GamePicker.WebApp.pdb
