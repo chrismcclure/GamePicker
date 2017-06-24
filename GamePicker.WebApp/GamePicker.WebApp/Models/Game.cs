@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace GamePicker.WebApp.Models
 {
     public partial class Game
     {
+        [Key]
         public int GameId { get; set; }
         public int HomeTeamId { get; set; }
         public int AwayTeamId { get; set; }

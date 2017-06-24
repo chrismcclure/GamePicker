@@ -12,16 +12,15 @@ namespace GamePicker.WebApp.Models
 
         public C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContext(DbContextOptions<C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContext> options)
             : base(options)
-        { }
-
-        public DbSet<C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContext> C__USERS_CHRIS_000_DOCUMENTS_SPORTSPICKERDB_MDFContexts { get; set; }
+        { }     
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+       
             modelBuilder.Entity<Game>(entity =>
             {
-                entity.Property(e => e.GameId).ValueGeneratedNever();
+                entity.Property(e => e.GameId).ValueGeneratedNever();               
 
                 entity.Property(e => e.GameDateTime).HasColumnType("datetime");
 
@@ -39,7 +38,7 @@ namespace GamePicker.WebApp.Models
             });
 
             modelBuilder.Entity<Sport>(entity =>
-            {
+            {             
                 entity.Property(e => e.SportId).ValueGeneratedNever();
 
                 entity.Property(e => e.SportTitle)

@@ -1,0 +1,21 @@
+﻿@model List<GamesDisplayInfo>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 center-block">
+            <h1>@DateTime.Today.ToString("d") Games</h1>
+            <ul>
+                @{int count = 1;
+                    @foreach (var game in @Model)
+                    {
+                        <li>
+                            <h4>Game #@(count++)</h4>
+                            <p>Game Time: @game.GameTime.TimeOfDay</p>
+                            <p>Away Team: @game.AwayTeam</p>                   
+                            <p>Home Team: @game.HomeTeam</p>             
+                        </li>
+                    }
+                  }
+            </ul>
+        </div>
+    </div>
+</div>

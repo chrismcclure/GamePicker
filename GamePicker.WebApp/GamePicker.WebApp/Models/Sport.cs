@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace GamePicker.WebApp.Models
 {
@@ -10,6 +11,7 @@ namespace GamePicker.WebApp.Models
             Team = new HashSet<Team>();
         }
 
+        [Key]
         public int SportId { get; set; }
         public string SportTitle { get; set; }
 

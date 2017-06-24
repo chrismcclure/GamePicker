@@ -1,9 +1,22 @@
-﻿@model
+﻿
+@model List<Sport>
 
 <div class="container">
     <div class="row">
         <div class="col-md-8 center-block">
             <h1>Select Sports</h1>     
+            <ul>               
+                @foreach (var sport in @Model)
+                {
+                    <li>                     
+                    <a asp-controller="Home"
+                       asp-action="Games"                      
+                       class="btn btn-primary">
+                        @sport.SportTitle
+                    </a>                   
+                </li>
+                }
+            </ul>
         </div>
     </div>
 </div>

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "2a0b1a2c85e717fa4018c769792a678b9fa5b9c9"
+    "signature": "6237a82002c768b9f9c7fefbc1e25da8b505c547"
   },
   "compilationOptions": {
     "defines": [
@@ -23,6 +23,7 @@
     ".NETCoreApp,Version=v1.1": {
       "gamepicker.webapp/1.0.0": {
         "dependencies": {
+          "BuildWebCompiler": "1.11.347",
           "Microsoft.ApplicationInsights.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore": "1.1.2",
           "Microsoft.AspNetCore.Authentication.Cookies": "1.1.2",
@@ -47,6 +48,7 @@
           "GamePicker.WebApp.dll": {}
         }
       },
+      "buildwebcompiler/1.11.347": {},
       "microsoft.applicationinsights/2.2.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3546,6 +3548,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "buildwebcompiler/1.11.347": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N0xDulWkNP+KNRPH63mE7nprzjnGfL/dGCds9ghVxek9HoKCwQi8hmRsypNtc0YnRAbgBzs7uQqyYA4rRABDBw==",
+      "path": "buildwebcompiler/1.11.347",
+      "hashPath": "buildwebcompiler.1.11.347.nupkg.sha512"
     },
     "microsoft.applicationinsights/2.2.0": {
       "type": "package",
